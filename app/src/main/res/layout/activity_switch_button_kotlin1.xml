@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".kotlin.switchbutton1.SwitchButtonKotlinActivity1">
+
+    <com.suke.widget.SwitchButton
+        android:id="@+id/switch_button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <com.suke.widget.SwitchButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_checked="true"/>
+
+
+    <com.suke.widget.SwitchButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_show_indicator="false"
+        app:sb_checked="true"/>
+
+    <com.suke.widget.SwitchButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_checked_color="#fdc951"
+        app:sb_checked="true"/>
+
+    <com.suke.widget.SwitchButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_button_color="#db99c7"
+        app:sb_shadow_color="#A36F95"
+        app:sb_background="#FFF"
+        app:sb_checkline_color="#a5dc88"
+        app:sb_checked_color="#A36F95"
+        app:sb_uncheckcircle_color="#A36F95"
+        app:sb_uncheckbutton_color="#fdc951"
+        app:sb_checkedbutton_color="#61d74f" />
+
+    <com.suke.widget.SwitchButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:sb_enable_effect="false"/>
+
+
+<!--    ////////////////////////////////////-->
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_gravity="center"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:shadowColor="@color/red"
+        android:textColorHint="@color/green"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="50dp"
+        android:id="@+id/switch_button_2"
+        android:textColor="@color/black"
+        android:text="Arash Altafi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

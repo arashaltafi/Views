@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arash.altafi.views">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Views">
+        <activity
+            android:name=".kotlin.checkbox1.CheckBoxKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.datepicker.DatePickerKotlinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.numberpicker.NumberPickerKotlinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.switchbutton2.SwitchButtonKotlinActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.switchbutton1.SwitchButtonKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.image3.ImageKotlinActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.image2.ImageKotlinActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.image1.ImageKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.progressbar4.ProgressBarKotlinActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.animation2.AnimationKotlinActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.text2.TextKotlinActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.animation1.AnimationKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.text1.TextKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.shimmer3.views.DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.shimmer3.views.ShimmerKotlinActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.shimmer2.ShimmerKotlinActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.shimmer1.ShimmerKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.dialog3.DialogKotlinActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.lottie.LottieKotlinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.dialog2.DialogKotlinActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.dialog1.DialogKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.progressbar3.ProgressBarKotlinActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.progressbar2.ProgressBarKotlinActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.progressbar1.ProgressBarKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.snackbar2.SnackBarKotlinActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.snackbar1.SnackBarKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.toast2.activities.DarkColorMotionToastKotlin"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.toast2.activities.DarkMotionToastKotlin"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.toast2.activities.ColorMotionToastKotlin"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.toast2.activities.MotionToastKotlin"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.toast2.ToastKotlinActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.toast1.ToastKotlinActivity1"
+            android:exported="true" />
+        <activity
+            android:name=".kotlin.KotlinActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

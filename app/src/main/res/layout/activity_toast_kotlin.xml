@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:paddingHorizontal="50dp"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.toast1.ToastKotlinActivity1">
+
+        <com.google.android.material.button.MaterialButton
+            android:text="ERROR TOAST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_error_toast_1_kotlin" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="5dp"
+            android:text="SUCCESS TOAST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_success_toast_1_kotlin" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="5dp"
+            android:text="INFO TOAST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_info_toast_1_kotlin" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="5dp"
+            android:text="INFO TOAST WITH FORMATTING"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_info_with_formatting_toast_1_kotlin" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="5dp"
+            android:text="WARNING TOAST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_warning_toast_1_kotlin" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="5dp"
+            android:text="NORMAL TOAST (WITHOUT ICON)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_normal_without_icon_toast_1_kotlin" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="5dp"
+            android:text="NORMAL TOAST (WITH ICON)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_normal_with_icon_toast_1_kotlin" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="5dp"
+            android:text="CUSTOM CONFIGURATION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_custom_configuration_toast_1_kotlin" />
+
+</LinearLayout>

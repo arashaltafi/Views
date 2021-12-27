@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FF26292D"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.switchbutton2.SwitchButtonKotlinActivity2">
+
+    <io.ghyeok.stickyswitch.widget.StickySwitch
+        android:id="@+id/stickySwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:ss_animationDuration="600"
+        app:ss_animationType="line"
+        app:ss_iconPadding="18dp"
+        app:ss_iconSize="22dp"
+        app:ss_leftIcon="@drawable/ic_male"
+        app:ss_leftText="Male"
+        app:ss_rightIcon="@drawable/ic_female"
+        app:ss_rightText="Female"
+        app:ss_selectedTextSize="14sp"
+        app:ss_sliderBackgroundColor="@color/black"
+        app:ss_switchColor="@color/blue"
+        app:ss_textColor="@color/white"
+        app:ss_textSize="12sp"
+        app:ss_textVisibility="visible" />
+
+</RelativeLayout>

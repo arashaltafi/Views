@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.checkbox1.CheckBoxKotlinActivity1">
+
+    <com.hanks.library.AnimateCheckBox
+        android:id="@+id/check_box_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="15dp"
+        app:animDuration="200"
+        app:checkedColor="#00f"
+        app:lineColor="#000"
+        app:lineWidth="1.2dp"
+        app:unCheckColor="@color/red"/>
+
+</LinearLayout>

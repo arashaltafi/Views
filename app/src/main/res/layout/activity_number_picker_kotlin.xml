@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:background="#222831"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.numberpicker.NumberPickerKotlinActivity">
+
+    <it.sephiroth.android.library.numberpicker.NumberPicker
+        android:id="@+id/number_picker"
+        app:picker_arrowStyle="@style/NumberPicker.ArrowStyle"
+        android:background="@drawable/shape_number_picker"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:progress="21"
+        app:picker_max="10"
+        app:picker_min="4"
+        app:picker_orientation="vertical"
+        app:picker_stepSize="1"
+        app:picker_tracker="exponential" />
+
+</LinearLayout>

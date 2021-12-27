@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.text2.TextKotlinActivity2">
+
+    <com.hanks.htextview.line.LineTextView
+        android:id="@+id/txt_line_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is LineTextView"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:animationDuration="3000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp"/>
+
+    <com.hanks.htextview.fade.FadeTextView
+        android:id="@+id/txt_fade_text_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.08"
+        android:lineSpacingMultiplier="1.3"
+        android:text="This is FadeTextView"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:animationDuration="5000"/>
+
+    <com.hanks.htextview.typer.TyperTextView
+        android:id="@+id/txt_type_text_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is TyperTextView"
+        app:charIncrease="1"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:typerSpeed="10"/>
+
+    <com.hanks.htextview.rainbow.RainbowTextView
+        android:id="@+id/txt_rainbow_text_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is RainbowTextView"
+        android:textSize="20sp"
+        app:colorSpace="150dp"
+        android:gravity="center"
+        app:colorSpeed="4dp"/>
+
+    <com.hanks.htextview.scale.ScaleTextView
+        android:id="@+id/txt_scale_text_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is ScaleTextView"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <com.hanks.htextview.evaporate.EvaporateTextView
+        android:id="@+id/txt_evaporate_text_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This is EvaporateTextView"
+        android:textSize="20sp"/>
+
+    <com.hanks.htextview.fall.FallTextView
+        android:id="@+id/txt_fall_text_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This is FallTextView"
+        android:textSize="20sp"/>
+
+    <com.hanks.htextview.typer.TyperTextView
+        android:id="@+id/txt_type_text_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/let_s_manage_your_task"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:charIncrease="1"
+        app:layout_constraintBottom_toTopOf="@+id/activity_splash_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:typerSpeed="500" />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.image2.ImageKotlinActivity2">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/arash"
+        app:riv_corner_radius="30dip"
+        app:riv_border_width="2dip"
+        app:riv_border_color="#000"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="repeat"
+        app:riv_oval="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/fragment_signup_imageview_picker"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/arash"
+        app:riv_border_color="@color/black"
+        app:riv_border_width="2dp"
+        app:riv_oval="true" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/arash"
+        app:riv_border_color="#000"
+        app:riv_border_width="2dip"
+        app:riv_corner_radius="30dip"
+        app:riv_mutate_background="true"
+        app:riv_oval="false"
+        app:riv_tile_mode="clamp" />
+
+</RelativeLayout>

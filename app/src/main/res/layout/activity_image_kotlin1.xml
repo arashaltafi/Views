@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layoutDirection="rtl"
+    android:gravity="center"
+    android:padding="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.image1.ImageKotlinActivity1">
+
+    <LinearLayout
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle_image_1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/person0"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="0dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:src="@drawable/arash"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:src="@drawable/person2"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/person3"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/person4"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/person5"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/person6"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/person7"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="150dp"
+            android:src="@drawable/person1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="30dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.animation1.AnimationKotlinActivity1">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:id="@+id/btn_animation_1"
+        android:text="Click Me 1 !!!"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_animation_2"
+        android:text="Click Me 2 !!!"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_animation_3"
+        android:text="Click Me 3 !!!"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_animation_4"
+        android:text="Click Me 4 !!!"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_animation_5"
+        android:text="Click Me 5 !!!"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_animation_6"
+        android:text="Click Me 6 !!!"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_animation_7"
+        android:text="Click Me 7 !!!"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

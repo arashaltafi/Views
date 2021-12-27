@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".kotlin.datepicker.DatePickerKotlinActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <com.ozcanalasalvar.library.view.datePicker.DatePicker
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:offset="3"
+            app:pickerMode="dayFirst"
+            app:textSize="19" />
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <com.ozcanalasalvar.library.view.timePicker.TimePicker
+            android:id="@+id/timepicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:offset="2"
+            app:textSize="17" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:id="@+id/btn_date_picker"
+                android:text="Date Picker" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:id="@+id/btn_time_picker"
+                android:text="Time Picker" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

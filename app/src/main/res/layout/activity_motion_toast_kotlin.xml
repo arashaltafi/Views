@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.toast2.activities.MotionToastKotlin">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:id="@+id/btn_motion_toast_success_toast_2_kotlin"
+        android:text="Motion Success Toast"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_motion_toast_error_toast_2_kotlin"
+        android:text="Motion Error Toast"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_motion_toast_warning_toast_2_kotlin"
+        android:text="Motion Warning Toast"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_motion_toast_info_toast_2_kotlin"
+        android:text="Motion Info Toast"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:id="@+id/btn_motion_toast_delete_toast_2_kotlin"
+        android:text="Motion Delete Toast"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

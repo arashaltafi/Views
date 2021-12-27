@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".kotlin.KotlinActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_toast_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_toast_2_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Toast 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_snackbar_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="SnackBar 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_progressbar_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="ProgressBar 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_progressbar_2_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ProgressBar 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_progressbar_3_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ProgressBar 3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_progressbar_4_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ProgressBar 4" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_dialog_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Dialog 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_dialog_2_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Dialog 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_dialog_3_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Dialog 3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_lottie_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Lottie 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_number_picker_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Number Picker 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_date_picker_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Date Picker 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_shimmer_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Shimmer 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_shimmer_2_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Shimmer 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_shimmer_3_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Shimmer 3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_text_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Text 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_text_2_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Text 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_animation_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Animation 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_animation_2_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Animation 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_image_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Image 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_image_2_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Image 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_image_3_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Image 3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_switch_button_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Switch Button 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_switch_button_2_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Switch Button 2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_check_box_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Check Box 1" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
