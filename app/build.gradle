@@ -129,6 +129,9 @@ dependencies {
     // Check Box 1
     implementation 'com.hanks.animatecheckbox:library:0.1'
 
+    // Custom Tab 1
+    implementation "androidx.browser:browser:1.4.0"
+
     //Text 1
     implementation "com.hanks:htextview-base:0.1.6"        // base library
     implementation "com.hanks:htextview-fade:0.1.6"        // optional

@@ -7,6 +7,7 @@ import com.arash.altafi.views.R
 import com.arash.altafi.views.kotlin.animation1.AnimationKotlinActivity1
 import com.arash.altafi.views.kotlin.animation2.AnimationKotlinActivity2
 import com.arash.altafi.views.kotlin.checkbox1.CheckBoxKotlinActivity1
+import com.arash.altafi.views.kotlin.customtab.CustomTabKotlinActivity1
 import com.arash.altafi.views.kotlin.datepicker.DatePickerKotlinActivity
 import com.arash.altafi.views.kotlin.dialog1.DialogKotlinActivity1
 import com.arash.altafi.views.kotlin.dialog2.DialogKotlinActivity2
@@ -150,6 +151,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_check_box_1_kotlin.setOnClickListener {
             startActivity(Intent(this , CheckBoxKotlinActivity1::class.java))
+        }
+
+        btn_custom_tab_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , CustomTabKotlinActivity1::class.java))
         }
 
     }
