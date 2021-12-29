@@ -21,6 +21,7 @@ import com.arash.altafi.views.kotlin.progressbar1.ProgressBarKotlinActivity1
 import com.arash.altafi.views.kotlin.progressbar2.ProgressBarKotlinActivity2
 import com.arash.altafi.views.kotlin.progressbar3.ProgressBarKotlinActivity3
 import com.arash.altafi.views.kotlin.progressbar4.ProgressBarKotlinActivity4
+import com.arash.altafi.views.kotlin.ratingbar1.RatingBarKotlinActivity1
 import com.arash.altafi.views.kotlin.shimmer1.ShimmerKotlinActivity1
 import com.arash.altafi.views.kotlin.shimmer2.ShimmerKotlinActivity2
 import com.arash.altafi.views.kotlin.shimmer3.views.ShimmerKotlinActivity3
@@ -31,6 +32,7 @@ import com.arash.altafi.views.kotlin.text1.TextKotlinActivity1
 import com.arash.altafi.views.kotlin.text2.TextKotlinActivity2
 import com.arash.altafi.views.kotlin.toast1.ToastKotlinActivity1
 import com.arash.altafi.views.kotlin.toast2.ToastKotlinActivity2
+import com.arash.altafi.views.kotlin.triangleLabelView.TriangleLabelViewKotlinActivity1
 import kotlinx.android.synthetic.main.activity_kotlin.*
 
 class KotlinActivity : AppCompatActivity() {
@@ -155,6 +157,14 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_custom_tab_1_kotlin.setOnClickListener {
             startActivity(Intent(this , CustomTabKotlinActivity1::class.java))
+        }
+
+        btn_rating_bar_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , RatingBarKotlinActivity1::class.java))
+        }
+
+        btn_triangle_label_view_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , TriangleLabelViewKotlinActivity1::class.java))
         }
 
     }

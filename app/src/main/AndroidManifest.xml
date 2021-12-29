@@ -14,8 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
-            android:name=".kotlin.customtab.CustomTabKotlinActivity1"
+            android:name=".kotlin.triangleLabelView.TriangleLabelViewKotlinActivity1"
             android:exported="false" />
+        <activity
+            android:name=".kotlin.ratingbar1.RatingBarKotlinActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin.customtab.CustomTabKotlinActivity1"
+            android:exported="true" />
         <activity
             android:name=".kotlin.checkbox1.CheckBoxKotlinActivity1"
             android:exported="true" />

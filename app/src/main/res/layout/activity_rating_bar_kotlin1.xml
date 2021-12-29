@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.ratingbar1.RatingBarKotlinActivity1">
+
+    <com.willy.ratingbar.ScaleRatingBar
+        android:id="@+id/ratingbar_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srb_numStars="3"
+        app:srb_minimumStars="1"
+        app:srb_rating="2"
+        app:srb_starWidth="30dp"
+        app:srb_starHeight="30dp"
+        app:srb_starPadding="15dp"
+        app:srb_stepSize="0.5"
+        app:srb_isIndicator="false"
+        app:srb_clickable="true"
+        app:srb_scrollable="true"
+        app:srb_clearRatingEnabled="true"
+        app:srb_drawableEmpty="@drawable/empty"
+        app:srb_drawableFilled="@drawable/filled" />
+
+    <com.willy.ratingbar.ScaleRatingBar
+        android:layout_marginTop="50dp"
+        android:id="@+id/ratingbar_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srb_numStars="5"
+        app:srb_minimumStars="0"
+        app:srb_rating="1"
+        app:srb_starWidth="30dp"
+        app:srb_starHeight="30dp"
+        app:srb_starPadding="5dp"
+        app:srb_stepSize="0.0001"
+        app:srb_isIndicator="true"
+        app:srb_clickable="true"
+        app:srb_scrollable="true"
+        app:srb_clearRatingEnabled="true"
+        app:srb_drawableEmpty="@drawable/empty"
+        app:srb_drawableFilled="@drawable/filled">
+
+    </com.willy.ratingbar.ScaleRatingBar>
+
+
+</LinearLayout>

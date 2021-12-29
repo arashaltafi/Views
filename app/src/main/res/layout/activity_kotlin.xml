@@ -207,6 +207,20 @@
             android:layout_marginTop="30dp"
             android:text="Custom Tab 1" />
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_rating_bar_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Rating bar 1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_triangle_label_view_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="TriangleLabelView" />
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

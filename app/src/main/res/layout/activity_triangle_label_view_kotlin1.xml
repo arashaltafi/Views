@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlin.triangleLabelView.TriangleLabelViewKotlinActivity1">
+
+
+    <RelativeLayout
+        android:background="@color/grey"
+        android:layout_width="250dp"
+        android:layout_height="400dp">
+
+
+        <ImageView
+            android:id="@+id/image_triangle_label_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/arash" />
+
+        <jp.shts.android.library.TriangleLabelView
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            app:backgroundColor="@color/red"
+            app:corner="leftTop"
+            app:labelBottomPadding="7dp"
+            app:labelCenterPadding="0dp"
+            app:labelTopPadding="10dp"
+            app:primaryTextSize="16sp"
+            app:secondaryText="10%"
+            app:secondaryTextColor="@color/white"
+            app:secondaryTextSize="10sp" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

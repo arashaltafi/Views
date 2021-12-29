@@ -132,6 +132,12 @@ dependencies {
     // Custom Tab 1
     implementation "androidx.browser:browser:1.4.0"
 
+    // Rating bar 1
+    implementation 'com.github.ome450901:SimpleRatingBar:1.5.1'
+
+    // Triangle Label View
+    implementation 'com.github.shts:TriangleLabelView:1.1.2'
+
     //Text 1
     implementation "com.hanks:htextview-base:0.1.6"        // base library
     implementation "com.hanks:htextview-fade:0.1.6"        // optional
