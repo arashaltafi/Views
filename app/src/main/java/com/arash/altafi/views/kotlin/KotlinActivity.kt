@@ -32,6 +32,7 @@ import com.arash.altafi.views.kotlin.text1.TextKotlinActivity1
 import com.arash.altafi.views.kotlin.text2.TextKotlinActivity2
 import com.arash.altafi.views.kotlin.toast1.ToastKotlinActivity1
 import com.arash.altafi.views.kotlin.toast2.ToastKotlinActivity2
+import com.arash.altafi.views.kotlin.toast3.ToastKotlinActivity3
 import com.arash.altafi.views.kotlin.triangleLabelView.TriangleLabelViewKotlinActivity1
 import kotlinx.android.synthetic.main.activity_kotlin.*
 
@@ -57,6 +58,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_toast_2_kotlin.setOnClickListener {
             startActivity(Intent(this , ToastKotlinActivity2::class.java))
+        }
+
+        btn_toast_3_kotlin.setOnClickListener {
+            startActivity(Intent(this , ToastKotlinActivity3::class.java))
         }
 
         btn_snackbar_1_kotlin.setOnClickListener {

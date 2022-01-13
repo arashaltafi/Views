@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
+            android:name=".kotlin.toast3.ToastKotlinActivity3"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.triangleLabelView.TriangleLabelViewKotlinActivity1"
             android:exported="false" />
         <activity

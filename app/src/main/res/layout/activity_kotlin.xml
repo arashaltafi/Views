@@ -33,6 +33,13 @@
             android:text="Toast 2" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_toast_3_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Toast 3" />
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_snackbar_1_kotlin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
