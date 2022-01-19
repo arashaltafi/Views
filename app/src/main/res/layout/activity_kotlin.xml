@@ -117,6 +117,13 @@
             android:text="Date Picker 1" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_date_picker_2_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Date Picker 2" />
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_shimmer_1_kotlin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

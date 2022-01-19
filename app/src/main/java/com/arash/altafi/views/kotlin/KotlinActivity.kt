@@ -8,7 +8,8 @@ import com.arash.altafi.views.kotlin.animation1.AnimationKotlinActivity1
 import com.arash.altafi.views.kotlin.animation2.AnimationKotlinActivity2
 import com.arash.altafi.views.kotlin.checkbox1.CheckBoxKotlinActivity1
 import com.arash.altafi.views.kotlin.customtab.CustomTabKotlinActivity1
-import com.arash.altafi.views.kotlin.datepicker.DatePickerKotlinActivity
+import com.arash.altafi.views.kotlin.datepicker1.DatePickerKotlinActivity1
+import com.arash.altafi.views.kotlin.datepicker2.DatePickerKotlinActivity2
 import com.arash.altafi.views.kotlin.dialog1.DialogKotlinActivity1
 import com.arash.altafi.views.kotlin.dialog2.DialogKotlinActivity2
 import com.arash.altafi.views.kotlin.dialog3.DialogKotlinActivity3
@@ -106,7 +107,11 @@ class KotlinActivity : AppCompatActivity() {
         }
 
         btn_date_picker_1_kotlin.setOnClickListener {
-            startActivity(Intent(this , DatePickerKotlinActivity::class.java))
+            startActivity(Intent(this , DatePickerKotlinActivity1::class.java))
+        }
+
+        btn_date_picker_2_kotlin.setOnClickListener {
+            startActivity(Intent(this , DatePickerKotlinActivity2::class.java))
         }
 
         btn_shimmer_1_kotlin.setOnClickListener {

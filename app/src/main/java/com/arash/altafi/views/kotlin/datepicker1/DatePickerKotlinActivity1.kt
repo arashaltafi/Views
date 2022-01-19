@@ -1,4 +1,4 @@
-package com.arash.altafi.views.kotlin.datepicker
+package com.arash.altafi.views.kotlin.datepicker1
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
@@ -12,7 +12,7 @@ import com.ozcanalasalvar.library.view.popup.TimePickerPopup
 import com.ozcanalasalvar.library.view.timePicker.TimePicker
 import kotlinx.android.synthetic.main.activity_date_picker_kotlin.*
 
-class DatePickerKotlinActivity : AppCompatActivity() {
+class DatePickerKotlinActivity1 : AppCompatActivity() {
 
     private lateinit var pickerPopup: TimePickerPopup
     private lateinit var datePickerPopup: DatePickerPopup

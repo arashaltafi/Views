@@ -129,8 +129,11 @@ dependencies {
     // Number Picker
     implementation 'com.github.sephiroth74:NumberSlidingPicker:1.0.3'
 
-    // Date Picker
+    // Date Picker 1
     implementation 'com.github.OzcanAlasalvar:DatePicker:1.0.4'
+
+    // Date Picker 2
+    implementation 'com.github.aliab:Persian-Date-Picker-Dialog:1.7.1'
 
     // Check Box 1
     implementation 'com.hanks.animatecheckbox:library:0.1'
