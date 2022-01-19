@@ -123,6 +123,9 @@ dependencies {
     //SwitchButton 2
     implementation 'com.github.GwonHyeok:StickySwitch:0.0.16'
 
+    //SwitchButton 3
+    implementation 'com.rm:rmswitch:1.2.2'
+
     // Number Picker
     implementation 'com.github.sephiroth74:NumberSlidingPicker:1.0.3'
 
