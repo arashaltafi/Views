@@ -10,6 +10,7 @@ import com.arash.altafi.views.kotlin.checkbox1.CheckBoxKotlinActivity1
 import com.arash.altafi.views.kotlin.customtab.CustomTabKotlinActivity1
 import com.arash.altafi.views.kotlin.datepicker1.DatePickerKotlinActivity1
 import com.arash.altafi.views.kotlin.datepicker2.DatePickerKotlinActivity2
+import com.arash.altafi.views.kotlin.datepicker3.DatePickerKotlinActivity3
 import com.arash.altafi.views.kotlin.dialog1.DialogKotlinActivity1
 import com.arash.altafi.views.kotlin.dialog2.DialogKotlinActivity2
 import com.arash.altafi.views.kotlin.dialog3.DialogKotlinActivity3
@@ -18,6 +19,8 @@ import com.arash.altafi.views.kotlin.image2.ImageKotlinActivity2
 import com.arash.altafi.views.kotlin.image3.ImageKotlinActivity3
 import com.arash.altafi.views.kotlin.lottie.LottieKotlinActivity
 import com.arash.altafi.views.kotlin.numberpicker.NumberPickerKotlinActivity
+import com.arash.altafi.views.kotlin.popupwindow1.PopupWindowKotlinActivity1
+import com.arash.altafi.views.kotlin.popupwindow2.PopupWindowKotlinActivity2
 import com.arash.altafi.views.kotlin.progressbar1.ProgressBarKotlinActivity1
 import com.arash.altafi.views.kotlin.progressbar2.ProgressBarKotlinActivity2
 import com.arash.altafi.views.kotlin.progressbar3.ProgressBarKotlinActivity3
@@ -114,6 +117,10 @@ class KotlinActivity : AppCompatActivity() {
             startActivity(Intent(this , DatePickerKotlinActivity2::class.java))
         }
 
+        btn_date_picker_3_kotlin.setOnClickListener {
+            startActivity(Intent(this , DatePickerKotlinActivity3::class.java))
+        }
+
         btn_shimmer_1_kotlin.setOnClickListener {
             startActivity(Intent(this , ShimmerKotlinActivity1::class.java))
         }
@@ -180,6 +187,14 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_triangle_label_view_1_kotlin.setOnClickListener {
             startActivity(Intent(this , TriangleLabelViewKotlinActivity1::class.java))
+        }
+
+        btn_popup_window_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , PopupWindowKotlinActivity1::class.java))
+        }
+
+        btn_popup_window_2_kotlin.setOnClickListener {
+            startActivity(Intent(this , PopupWindowKotlinActivity2::class.java))
         }
 
     }

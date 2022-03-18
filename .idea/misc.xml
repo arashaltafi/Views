@@ -7,7 +7,11 @@
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/drawable-v24/darkmode_bg.xml" value="0.3685185185185185" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/drawable-v24/ic_female.xml" value="0.3074074074074074" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/drawable-v24/ic_icon_android.xml" value="0.3074074074074074" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/drawable-v24/ic_outline_info.xml" value="0.3611111111111111" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/drawable/bg_outline_round_rect.xml" value="0.3611111111111111" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/drawable/bg_round_rect.xml" value="0.3611111111111111" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/drawable/shape_number_picker.xml" value="0.3074074074074074" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/aaaafragment_blank.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_animation_kotlin1.xml" value="0.21296296296296297" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_animation_kotlin2.xml" value="0.2861111111111111" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_check_box_kotlin1.xml" value="0.25555555555555554" />
@@ -17,6 +21,7 @@
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_dark_motion_toast_kotlin.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_date_picker_kotlin.xml" value="0.25555555555555554" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_date_picker_kotlin2.xml" value="0.33" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_date_picker_kotlin3.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_detail.xml" value="0.25555555555555554" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_dialog_kotlin1.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_dialog_kotlin2.xml" value="0.22" />
@@ -32,6 +37,7 @@
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_main.xml" value="0.25925925925925924" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_motion_toast_kotlin.xml" value="0.25925925925925924" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_number_picker_kotlin.xml" value="0.25" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_popup_window_kotlin1.xml" value="0.3472222222222222" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_progress_bar_kotlin1.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_progress_bar_kotlin2.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_progress_bar_kotlin3.xml" value="0.25925925925925924" />
@@ -52,8 +58,23 @@
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_toast_kotlin2.xml" value="0.25925925925925924" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_toast_kotlin3.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/activity_triangle_label_view_kotlin1.xml" value="0.35625" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/dialog_custom.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/fragment_highlight.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/fragment_main.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/fragment_more_highlighting.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/fragment_popup.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/fragment_recyclerview.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/guide_step_first.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/guide_step_second.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/guide_step_third.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/guide_tips_layout.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/item_shimmer_2.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/item_shimmer_3.xml" value="0.25" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/menu_list_item.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/pop_tips_layout_bottom.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/pop_tips_layout_left.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/pop_tips_layout_right.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/pop_tips_layout_top.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/views/app/src/main/res/layout/shimmer_placeholder_layout.xml" value="0.3734375" />
       </map>
     </option>
