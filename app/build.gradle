@@ -166,4 +166,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
 
+    // Popup Window 3
+    implementation "com.github.tapadoo:alerter:7.2.4"
+
 }

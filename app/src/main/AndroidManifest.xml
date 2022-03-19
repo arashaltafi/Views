@@ -14,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
+            android:name=".kotlin.popupwindow3.PopupWindowKotlinActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin.textJustify.JustifyKotlinActivity"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.popupwindow2.PopupWindowKotlinActivity2"
             android:exported="false" />
         <activity

@@ -21,6 +21,7 @@ import com.arash.altafi.views.kotlin.lottie.LottieKotlinActivity
 import com.arash.altafi.views.kotlin.numberpicker.NumberPickerKotlinActivity
 import com.arash.altafi.views.kotlin.popupwindow1.PopupWindowKotlinActivity1
 import com.arash.altafi.views.kotlin.popupwindow2.PopupWindowKotlinActivity2
+import com.arash.altafi.views.kotlin.popupwindow3.PopupWindowKotlinActivity3
 import com.arash.altafi.views.kotlin.progressbar1.ProgressBarKotlinActivity1
 import com.arash.altafi.views.kotlin.progressbar2.ProgressBarKotlinActivity2
 import com.arash.altafi.views.kotlin.progressbar3.ProgressBarKotlinActivity3
@@ -35,6 +36,7 @@ import com.arash.altafi.views.kotlin.switchbutton2.SwitchButtonKotlinActivity2
 import com.arash.altafi.views.kotlin.switchbutton3.SwitchButtonKotlinActivity3
 import com.arash.altafi.views.kotlin.text1.TextKotlinActivity1
 import com.arash.altafi.views.kotlin.text2.TextKotlinActivity2
+import com.arash.altafi.views.kotlin.textJustify.JustifyKotlinActivity
 import com.arash.altafi.views.kotlin.toast1.ToastKotlinActivity1
 import com.arash.altafi.views.kotlin.toast2.ToastKotlinActivity2
 import com.arash.altafi.views.kotlin.toast3.ToastKotlinActivity3
@@ -141,6 +143,10 @@ class KotlinActivity : AppCompatActivity() {
             startActivity(Intent(this , TextKotlinActivity2::class.java))
         }
 
+        btn_justify_kotlin.setOnClickListener {
+            startActivity(Intent(this , JustifyKotlinActivity::class.java))
+        }
+
         btn_animation_1_kotlin.setOnClickListener {
             startActivity(Intent(this , AnimationKotlinActivity1::class.java))
         }
@@ -195,6 +201,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_popup_window_2_kotlin.setOnClickListener {
             startActivity(Intent(this , PopupWindowKotlinActivity2::class.java))
+        }
+
+        btn_popup_window_3_kotlin.setOnClickListener {
+            startActivity(Intent(this , PopupWindowKotlinActivity3::class.java))
         }
 
     }
