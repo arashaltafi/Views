@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.arash.altafi.views"
-        minSdk 21
+        minSdk 23
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -168,5 +168,8 @@ dependencies {
 
     // Popup Window 3
     implementation "com.github.tapadoo:alerter:7.2.4"
+
+    // Boom Menu 3
+    implementation 'com.nightonke:boommenu:2.1.1'
 
 }
