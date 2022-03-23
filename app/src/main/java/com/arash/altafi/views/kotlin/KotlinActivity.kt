@@ -37,6 +37,7 @@ import com.arash.altafi.views.kotlin.switchbutton2.SwitchButtonKotlinActivity2
 import com.arash.altafi.views.kotlin.switchbutton3.SwitchButtonKotlinActivity3
 import com.arash.altafi.views.kotlin.text1.TextKotlinActivity1
 import com.arash.altafi.views.kotlin.text2.TextKotlinActivity2
+import com.arash.altafi.views.kotlin.text3.TextKotlinActivity3
 import com.arash.altafi.views.kotlin.textJustify.JustifyKotlinActivity
 import com.arash.altafi.views.kotlin.toast1.ToastKotlinActivity1
 import com.arash.altafi.views.kotlin.toast2.ToastKotlinActivity2
@@ -142,6 +143,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_text_2_kotlin.setOnClickListener {
             startActivity(Intent(this , TextKotlinActivity2::class.java))
+        }
+
+        btn_text_3_kotlin.setOnClickListener {
+            startActivity(Intent(this , TextKotlinActivity3::class.java))
         }
 
         btn_justify_kotlin.setOnClickListener {
