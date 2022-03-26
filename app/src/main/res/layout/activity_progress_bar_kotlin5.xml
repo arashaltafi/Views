@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Continuous Slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_marginTop="40dp"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/continuous_slider_progress5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:valueFrom="0.0"
+        android:valueTo="100.0"
+        android:value="20.0"
+        app:labelBehavior="floating" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Discrete Slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_marginTop="40dp"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/discrete_slider_progress5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:valueFrom="0.0"
+        android:valueTo="100.0"
+        android:stepSize="10.0"
+        app:labelBehavior="withinBounds"
+        android:value="30.0" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Range Slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_marginTop="40dp"/>
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/range_slider_progress5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:valueFrom="0.0"
+        android:valueTo="100.0"
+        app:values="@array/initial_range_slider_values" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

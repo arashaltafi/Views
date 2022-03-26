@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
+            android:name=".kotlin.progressbar5.ProgressBarKotlinActivity5"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.text3.TextKotlinActivity3"
             android:exported="false" />
         <activity
