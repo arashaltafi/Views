@@ -298,6 +298,13 @@
             android:layout_marginTop="30dp"
             android:text="Boom Menu" />
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_recycler_view_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="RecyclerView Animation 1" />
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

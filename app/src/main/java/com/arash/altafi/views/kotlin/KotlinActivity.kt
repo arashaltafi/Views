@@ -29,6 +29,7 @@ import com.arash.altafi.views.kotlin.progressbar3.ProgressBarKotlinActivity3
 import com.arash.altafi.views.kotlin.progressbar4.ProgressBarKotlinActivity4
 import com.arash.altafi.views.kotlin.progressbar5.ProgressBarKotlinActivity5
 import com.arash.altafi.views.kotlin.ratingbar1.RatingBarKotlinActivity1
+import com.arash.altafi.views.kotlin.recyclerView1.RecyclerViewKotlinActivity1
 import com.arash.altafi.views.kotlin.shimmer1.ShimmerKotlinActivity1
 import com.arash.altafi.views.kotlin.shimmer2.ShimmerKotlinActivity2
 import com.arash.altafi.views.kotlin.shimmer3.views.ShimmerKotlinActivity3
@@ -220,6 +221,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_boom_menu_kotlin.setOnClickListener {
             startActivity(Intent(this , BoomMenuActivity::class.java))
+        }
+
+        btn_recycler_view_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , RecyclerViewKotlinActivity1::class.java))
         }
 
     }

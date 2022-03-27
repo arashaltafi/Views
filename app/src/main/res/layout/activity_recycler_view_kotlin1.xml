@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".kotlin.recyclerView1.RecyclerViewKotlinActivity1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_animation_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="10"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_recycler_view_animation_1"
+        android:layoutAnimation="@anim/layout_animation" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
