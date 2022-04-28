@@ -23,6 +23,7 @@ import com.arash.altafi.views.kotlin.numberpicker.NumberPickerKotlinActivity
 import com.arash.altafi.views.kotlin.popupwindow1.PopupWindowKotlinActivity1
 import com.arash.altafi.views.kotlin.popupwindow2.PopupWindowKotlinActivity2
 import com.arash.altafi.views.kotlin.popupwindow3.PopupWindowKotlinActivity3
+import com.arash.altafi.views.kotlin.popupwindow4.PopupWindowKotlinActivity4
 import com.arash.altafi.views.kotlin.progressbar1.ProgressBarKotlinActivity1
 import com.arash.altafi.views.kotlin.progressbar2.ProgressBarKotlinActivity2
 import com.arash.altafi.views.kotlin.progressbar3.ProgressBarKotlinActivity3
@@ -44,6 +45,7 @@ import com.arash.altafi.views.kotlin.textJustify.JustifyKotlinActivity
 import com.arash.altafi.views.kotlin.toast1.ToastKotlinActivity1
 import com.arash.altafi.views.kotlin.toast2.ToastKotlinActivity2
 import com.arash.altafi.views.kotlin.toast3.ToastKotlinActivity3
+import com.arash.altafi.views.kotlin.toast4.ToastKotlinActivity4
 import com.arash.altafi.views.kotlin.triangleLabelView.TriangleLabelViewKotlinActivity1
 import kotlinx.android.synthetic.main.activity_kotlin.*
 
@@ -73,6 +75,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_toast_3_kotlin.setOnClickListener {
             startActivity(Intent(this , ToastKotlinActivity3::class.java))
+        }
+
+        btn_toast_4_kotlin.setOnClickListener {
+            startActivity(Intent(this , ToastKotlinActivity4::class.java))
         }
 
         btn_snackbar_1_kotlin.setOnClickListener {
@@ -217,6 +223,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_popup_window_3_kotlin.setOnClickListener {
             startActivity(Intent(this , PopupWindowKotlinActivity3::class.java))
+        }
+
+        btn_popup_window_4_kotlin.setOnClickListener {
+            startActivity(Intent(this , PopupWindowKotlinActivity4::class.java))
         }
 
         btn_boom_menu_kotlin.setOnClickListener {
