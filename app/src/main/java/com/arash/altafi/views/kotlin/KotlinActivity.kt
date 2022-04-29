@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.arash.altafi.views.R
 import com.arash.altafi.views.kotlin.animation1.AnimationKotlinActivity1
 import com.arash.altafi.views.kotlin.animation2.AnimationKotlinActivity2
+import com.arash.altafi.views.kotlin.autoComplete1.AutoCompleteKotlinActivity1
 import com.arash.altafi.views.kotlin.boomMenu.BoomMenuActivity
 import com.arash.altafi.views.kotlin.checkbox1.CheckBoxKotlinActivity1
 import com.arash.altafi.views.kotlin.customtab.CustomTabKotlinActivity1
@@ -235,6 +236,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_recycler_view_1_kotlin.setOnClickListener {
             startActivity(Intent(this , RecyclerViewKotlinActivity1::class.java))
+        }
+
+        btn_auto_complete_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , AutoCompleteKotlinActivity1::class.java))
         }
 
     }
