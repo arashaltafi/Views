@@ -19,6 +19,7 @@ import com.arash.altafi.views.kotlin.dialog3.DialogKotlinActivity3
 import com.arash.altafi.views.kotlin.image1.ImageKotlinActivity1
 import com.arash.altafi.views.kotlin.image2.ImageKotlinActivity2
 import com.arash.altafi.views.kotlin.image3.ImageKotlinActivity3
+import com.arash.altafi.views.kotlin.image4.ImageKotlinActivity4
 import com.arash.altafi.views.kotlin.lottie.LottieKotlinActivity
 import com.arash.altafi.views.kotlin.numberpicker.NumberPickerKotlinActivity
 import com.arash.altafi.views.kotlin.popupwindow1.PopupWindowKotlinActivity1
@@ -184,6 +185,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_image_3_kotlin.setOnClickListener {
             startActivity(Intent(this , ImageKotlinActivity3::class.java))
+        }
+
+        btn_image_4_kotlin.setOnClickListener {
+            startActivity(Intent(this , ImageKotlinActivity4::class.java))
         }
 
         btn_switch_button_1_kotlin.setOnClickListener {

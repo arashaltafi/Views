@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
+            android:name=".kotlin.image4.ImageKotlinActivity4"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.autoComplete1.AutoCompleteKotlinActivity1"
             android:exported="false" />
         <activity
