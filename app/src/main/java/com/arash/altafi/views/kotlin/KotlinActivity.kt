@@ -3,6 +3,8 @@ package com.arash.altafi.views.kotlin
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import com.arash.altafi.views.BuildConfig
 import com.arash.altafi.views.R
 import com.arash.altafi.views.kotlin.animation1.AnimationKotlinActivity1
 import com.arash.altafi.views.kotlin.animation2.AnimationKotlinActivity2
@@ -57,6 +59,13 @@ class KotlinActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_kotlin)
+
+        if(BuildConfig.FLAVOR == "product")
+            Toast.makeText(this, "test product", Toast.LENGTH_LONG).show()
+        else if (BuildConfig.FLAVOR == "develop")
+            Toast.makeText(this, "test develop", Toast.LENGTH_LONG).show()
+
+        Toast.makeText(this, BuildConfig.BASE_SERVER, Toast.LENGTH_LONG).show()
 
         supportActionBar!!.hide()
 //        supportActionBar!!.show()

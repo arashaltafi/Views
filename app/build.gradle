@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-android-extensions'
     id 'kotlin-kapt'
 }
+apply plugin: 'kotlin-android'
 
 android {
     compileSdk 31
@@ -17,7 +18,32 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    flavorDimensions "default"
+
+//    signingConfigs {
+//        debug {
+//            keyAlias 'ViewApp'
+//            keyPassword '***********'
+//            storeFile rootProject.file("app/releaseView.jks")
+//            storePassword '***********'
+//            v1SigningEnabled true
+//            v2SigningEnabled true
+//
+//        }
+//        release {
+//            keyAlias 'ViewApp'
+//            keyPassword '***********'
+//            storeFile rootProject.file("app/releaseView.jks")
+//            storePassword '***********'
+//            v1SigningEnabled true
+//            v2SigningEnabled true
+//        }
+//    }
+
     buildTypes {
+//        defaultConfig {
+//            applicationId "com.arash.altafi.views"
+//        }
         release {
             debuggable false
             crunchPngs true
@@ -28,6 +54,8 @@ android {
             ndk { abiFilters "armeabi-v7a", "arm64-v8a" }
         }
         debug {
+            versionNameSuffix "-debug"
+            applicationIdSuffix ".debug"
             signingConfig signingConfigs.debug
             debuggable true
             crunchPngs false
@@ -40,8 +68,12 @@ android {
 
     productFlavors {
         product {
+            buildConfigField("String", "BASE_SERVER", "\"product\"")
+            resValue "string", "app_name", "View Product"
         }
         develop {
+            buildConfigField("String", "BASE_SERVER", "\"develop\"")
+            resValue "string", "app_name", "View Develop"
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
         }
