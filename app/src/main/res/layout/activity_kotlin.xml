@@ -236,6 +236,13 @@
             android:text="Image 4" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_image_5_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Image 5" />
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_switch_button_1_kotlin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

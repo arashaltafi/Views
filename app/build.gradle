@@ -121,6 +121,12 @@ dependencies {
     //Image 4
     implementation 'com.otaliastudios:zoomlayout:1.9.0'
 
+    //Image 5
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+    //Image 6
+//    implementation 'com.github.yalantis:ucrop:2.2.8'
+
     //SwitchButton 1
     implementation 'com.github.zcweng:switch-button:0.0.3@aar'
 
