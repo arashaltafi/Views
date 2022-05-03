@@ -18,33 +18,31 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    flavorDimensions "default"
-
-//    signingConfigs {
-//        debug {
-//            keyAlias 'ViewApp'
-//            keyPassword '***********'
-//            storeFile rootProject.file("app/releaseView.jks")
-//            storePassword '***********'
-//            v1SigningEnabled true
-//            v2SigningEnabled true
-//
-//        }
-//        release {
-//            keyAlias 'ViewApp'
-//            keyPassword '***********'
-//            storeFile rootProject.file("app/releaseView.jks")
-//            storePassword '***********'
-//            v1SigningEnabled true
-//            v2SigningEnabled true
-//        }
-//    }
+    signingConfigs {
+        debug {
+            keyAlias 'Arash'
+            keyPassword '******'
+            storeFile rootProject.file("app/ArashAltafiAndroid.jks")
+            storePassword '******'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        release {
+            keyAlias 'Arash'
+            keyPassword '******'
+            storeFile rootProject.file("app/ArashAltafiAndroid.jks")
+            storePassword '******'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
 
     buildTypes {
 //        defaultConfig {
 //            applicationId "com.arash.altafi.views"
 //        }
         release {
+            signingConfig signingConfigs.release
             debuggable false
             crunchPngs true
             minifyEnabled true
@@ -54,6 +52,7 @@ android {
             ndk { abiFilters "armeabi-v7a", "arm64-v8a" }
         }
         debug {
+            signingConfig signingConfigs.debug
             versionNameSuffix "-debug"
             applicationIdSuffix ".debug"
             signingConfig signingConfigs.debug
@@ -66,16 +65,26 @@ android {
         }
     }
 
+    flavorDimensions "default"
+
     productFlavors {
         product {
             buildConfigField("String", "BASE_SERVER", "\"product\"")
             resValue "string", "app_name", "View Product"
+            manifestPlaceholders = [
+                    appIcon: "@mipmap/ic_launcher",
+                    appIconRound: "@mipmap/ic_launcher_round"
+            ]
         }
         develop {
             buildConfigField("String", "BASE_SERVER", "\"develop\"")
             resValue "string", "app_name", "View Develop"
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
+            manifestPlaceholders = [
+                    appIcon: "@mipmap/ic_launcher_test",
+                    appIconRound: "@mipmap/ic_launcher_round_test"
+            ]
         }
     }
 

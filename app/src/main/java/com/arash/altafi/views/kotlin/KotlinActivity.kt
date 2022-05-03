@@ -59,13 +59,7 @@ class KotlinActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_kotlin)
-
-        if(BuildConfig.FLAVOR == "product")
-            Toast.makeText(this, "test product", Toast.LENGTH_LONG).show()
-        else if (BuildConfig.FLAVOR == "develop")
-            Toast.makeText(this, "test develop", Toast.LENGTH_LONG).show()
-
-        Toast.makeText(this, BuildConfig.BASE_SERVER, Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "versionName ${BuildConfig.BASE_SERVER}", Toast.LENGTH_LONG).show()
 
         supportActionBar!!.hide()
 //        supportActionBar!!.show()
