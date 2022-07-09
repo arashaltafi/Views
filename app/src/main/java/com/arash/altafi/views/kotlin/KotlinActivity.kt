@@ -34,6 +34,7 @@ import com.arash.altafi.views.kotlin.progressbar2.ProgressBarKotlinActivity2
 import com.arash.altafi.views.kotlin.progressbar3.ProgressBarKotlinActivity3
 import com.arash.altafi.views.kotlin.progressbar4.ProgressBarKotlinActivity4
 import com.arash.altafi.views.kotlin.progressbar5.ProgressBarKotlinActivity5
+import com.arash.altafi.views.kotlin.progressbar6.ProgressBarKotlinActivity6
 import com.arash.altafi.views.kotlin.ratingbar1.RatingBarKotlinActivity1
 import com.arash.altafi.views.kotlin.recyclerView1.RecyclerViewKotlinActivity1
 import com.arash.altafi.views.kotlin.shimmer1.ShimmerKotlinActivity1
@@ -110,6 +111,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_progressbar_5_kotlin.setOnClickListener {
             startActivity(Intent(this , ProgressBarKotlinActivity5::class.java))
+        }
+
+        btn_progressbar_6_kotlin.setOnClickListener {
+            startActivity(Intent(this , ProgressBarKotlinActivity6::class.java))
         }
 
         btn_dialog_1_kotlin.setOnClickListener {
