@@ -10,6 +10,9 @@ import com.arash.altafi.views.kotlin.animation1.AnimationKotlinActivity1
 import com.arash.altafi.views.kotlin.animation2.AnimationKotlinActivity2
 import com.arash.altafi.views.kotlin.autoComplete1.AutoCompleteKotlinActivity1
 import com.arash.altafi.views.kotlin.boomMenu.BoomMenuActivity
+import com.arash.altafi.views.kotlin.chart1.Chart1KotlinActivity
+import com.arash.altafi.views.kotlin.chart2.Chart2KotlinActivity
+import com.arash.altafi.views.kotlin.chart3.Chart3KotlinActivity
 import com.arash.altafi.views.kotlin.checkbox1.CheckBoxKotlinActivity1
 import com.arash.altafi.views.kotlin.customtab.CustomTabKotlinActivity1
 import com.arash.altafi.views.kotlin.datepicker1.DatePickerKotlinActivity1
@@ -263,6 +266,18 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_auto_complete_1_kotlin.setOnClickListener {
             startActivity(Intent(this , AutoCompleteKotlinActivity1::class.java))
+        }
+
+        btn_chart_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , Chart1KotlinActivity::class.java))
+        }
+
+        btn_chart_2_kotlin.setOnClickListener {
+            startActivity(Intent(this , Chart2KotlinActivity::class.java))
+        }
+
+        btn_chart_3_kotlin.setOnClickListener {
+            startActivity(Intent(this , Chart3KotlinActivity::class.java))
         }
 
     }

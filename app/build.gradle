@@ -247,4 +247,9 @@ dependencies {
     // Boom Menu 3
     implementation 'com.nightonke:boommenu:2.1.1'
 
+    //Chart1
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    //Chart2
+    implementation 'com.github.AnyChart:AnyChart-Android:1.1.2'
 }

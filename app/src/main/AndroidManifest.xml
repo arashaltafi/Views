@@ -17,6 +17,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
+            android:name=".kotlin.chart3.Chart3KotlinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin.chart2.MpChartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin.chart2.Chart2KotlinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin.chart1.Chart1KotlinActivity"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.progressbar6.ProgressBarKotlinActivity6"
             android:exported="false" />
         <activity
