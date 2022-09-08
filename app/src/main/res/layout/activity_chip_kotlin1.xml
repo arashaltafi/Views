@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".kotlin.KotlinActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_reorder_24"
+                    app:tint="?attr/colorOnSurface" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <com.google.android.material.chip.ChipGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        app:singleLine="true"
+                        app:singleSelection="true">
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="test"
+                            app:checkedIconEnabled="true"
+                            app:chipBackgroundColor="?attr/colorSecondary" />
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chip_music"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            app:checkedIconEnabled="false"
+                            app:chipEndPadding="0dp"
+                            app:chipIcon="@drawable/ic_music"
+                            app:chipIconVisible="true"
+                            app:closeIconEndPadding="0dp"
+                            app:closeIconStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:rippleColor="#f44336"
+                            app:shapeAppearance="@style/Widget.Material3.Chip.Suggestion"
+                            app:textStartPadding="0dp" />
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chip_file"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            app:checkedIconEnabled="false"
+                            app:chipEndPadding="0dp"
+                            app:chipIcon="@drawable/ic_file"
+                            app:chipIconVisible="true"
+                            app:closeIconEndPadding="0dp"
+                            app:closeIconStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:rippleColor="#4a17ff"
+                            app:shapeAppearance="@style/Widget.Material3.Chip.Suggestion"
+                            app:textStartPadding="0dp" />
+
+                    </com.google.android.material.chip.ChipGroup>
+
+                </HorizontalScrollView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_reorder_24"
+                    app:tint="?attr/colorOnSurface" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <com.google.android.material.chip.ChipGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        app:singleLine="true"
+                        app:singleSelection="false">
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="test 1"
+                            app:checkedIconEnabled="true"
+                            app:chipBackgroundColor="?attr/colorSecondary" />
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="test 2"
+                            app:checkedIconEnabled="true"
+                            app:chipBackgroundColor="?attr/colorSecondary" />
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="test 3"
+                            app:checkedIconEnabled="true"
+                            app:chipBackgroundColor="?attr/colorSecondary" />
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="test 4"
+                            app:checkedIconEnabled="true"
+                            app:chipBackgroundColor="?attr/colorSecondary" />
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="test 5"
+                            app:checkedIconEnabled="true"
+                            app:chipBackgroundColor="?attr/colorSecondary" />
+
+                        <com.google.android.material.chip.Chip
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            android:text="test 6"
+                            app:checkedIconEnabled="true"
+                            app:chipBackgroundColor="?attr/colorSecondary" />
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chip_music1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            app:checkedIconEnabled="false"
+                            app:chipEndPadding="0dp"
+                            app:chipIcon="@drawable/ic_music"
+                            app:chipIconVisible="true"
+                            app:closeIconEndPadding="0dp"
+                            app:closeIconStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:rippleColor="#f44336"
+                            app:shapeAppearance="@style/Widget.Material3.Chip.Suggestion"
+                            app:textStartPadding="0dp" />
+
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chip_file1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checkable="true"
+                            app:checkedIconEnabled="false"
+                            app:chipEndPadding="0dp"
+                            app:chipIcon="@drawable/ic_file"
+                            app:chipIconVisible="true"
+                            app:closeIconEndPadding="0dp"
+                            app:closeIconStartPadding="0dp"
+                            app:iconEndPadding="0dp"
+                            app:iconStartPadding="0dp"
+                            app:rippleColor="#4a17ff"
+                            app:shapeAppearance="@style/Widget.Material3.Chip.Suggestion"
+                            app:textStartPadding="0dp" />
+
+                    </com.google.android.material.chip.ChipGroup>
+
+                </HorizontalScrollView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_reorder_24"
+                    app:tint="?attr/colorOnSurface" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="8dp"
+                    app:singleLine="false"
+                    app:singleSelection="false">
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:text="test 1"
+                        app:checkedIconEnabled="true"
+                        app:chipBackgroundColor="@color/purple_200" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:text="test 2"
+                        app:checkedIconEnabled="true"
+                        app:chipBackgroundColor="@color/purple_200" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:text="test 3"
+                        app:checkedIconEnabled="true"
+                        app:chipBackgroundColor="@color/purple_200" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:text="test 4"
+                        app:checkedIconEnabled="true"
+                        app:chipBackgroundColor="@color/purple_200" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:text="test 5"
+                        app:checkedIconEnabled="true"
+                        app:chipBackgroundColor="@color/purple_200" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        android:text="test 6"
+                        app:checkedIconEnabled="true"
+                        app:chipBackgroundColor="@color/purple_200" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_music2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        app:checkedIconEnabled="false"
+                        app:chipEndPadding="0dp"
+                        app:chipIcon="@drawable/ic_music"
+                        app:chipIconVisible="true"
+                        app:closeIconEndPadding="0dp"
+                        app:closeIconStartPadding="0dp"
+                        app:iconEndPadding="0dp"
+                        app:iconStartPadding="0dp"
+                        app:rippleColor="#f44336"
+                        app:shapeAppearance="@style/Widget.Material3.Chip.Suggestion"
+                        app:textStartPadding="0dp" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_file2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkable="true"
+                        app:checkedIconEnabled="false"
+                        app:chipEndPadding="0dp"
+                        app:chipIcon="@drawable/ic_file"
+                        app:chipIconVisible="true"
+                        app:closeIconEndPadding="0dp"
+                        app:closeIconStartPadding="0dp"
+                        app:iconEndPadding="0dp"
+                        app:iconStartPadding="0dp"
+                        app:rippleColor="#4a17ff"
+                        app:shapeAppearance="@style/Widget.Material3.Chip.Suggestion"
+                        app:textStartPadding="0dp" />
+
+                </com.google.android.material.chip.ChipGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

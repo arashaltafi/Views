@@ -14,6 +14,7 @@ import com.arash.altafi.views.kotlin.chart1.Chart1KotlinActivity
 import com.arash.altafi.views.kotlin.chart2.Chart2KotlinActivity
 import com.arash.altafi.views.kotlin.chart3.Chart3KotlinActivity
 import com.arash.altafi.views.kotlin.checkbox1.CheckBoxKotlinActivity1
+import com.arash.altafi.views.kotlin.chip1.ChipKotlinActivity1
 import com.arash.altafi.views.kotlin.customtab.CustomTabKotlinActivity1
 import com.arash.altafi.views.kotlin.datepicker1.DatePickerKotlinActivity1
 import com.arash.altafi.views.kotlin.datepicker2.DatePickerKotlinActivity2
@@ -283,6 +284,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_chart_3_kotlin.setOnClickListener {
             startActivity(Intent(this , Chart3KotlinActivity::class.java))
+        }
+
+        btn_chip_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , ChipKotlinActivity1::class.java))
         }
 
     }

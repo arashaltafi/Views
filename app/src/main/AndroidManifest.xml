@@ -17,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
+            android:name=".kotlin.chip1.ChipKotlinActivity1"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.text5.TextKotlinActivity5"
             android:exported="false" />
         <activity
