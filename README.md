@@ -12,4 +12,6 @@ Sample Views in Kotlin
 
 - Custom Tab
 
+- Material Chip
+
 - ...
