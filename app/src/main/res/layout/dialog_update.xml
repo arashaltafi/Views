@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="64dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgUpdateDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="236dp"
+        android:minHeight="240dp"
+        app:srcCompat="@drawable/ic_notification_circle" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvUpdateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="@string/attention"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvUpdateDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        tools:text="description" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUpdateDialogUpdate"
+        style="@style/btn.colored.big"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="34dp"
+        android:text="@string/update_btn" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUpdateDialogCancel"
+        style="@style/btn.text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="21dp"
+        android:text="@string/not_needed" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

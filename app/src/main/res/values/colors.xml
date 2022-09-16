@@ -16,6 +16,8 @@
     <color name="light_red">#930032</color>
     <color name="light_yellow">#FFEB3B</color>
 
+    <color name="colorRed">#F44336</color>
+    <color name="colorBlue">#278FFF</color>
 
     <color name="grey_cool">#787887</color>
     <color name="grey">#A9A9A9</color>

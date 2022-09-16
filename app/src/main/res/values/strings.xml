@@ -74,4 +74,17 @@
     <string name="test_append">نام: %s</string>
     <string name="emptyChart"><![CDATA["    <string name=\"emptyChart\">نموداری برای محصول مورد نظر وجود ندارد</string> "]]></string>
 
+    <!-- Dialog4 -->
+    <string name="detecting_location">در حال دستیابی به موقعیت مکانی شما …</string>
+    <string name="location_dialog">مکان یابی</string>
+    <string name="cancel">انصراف</string>
+
+    <string name="attention">توجه</string>
+    <string name="attention_map">توجه:</string>
+    <string name="search">جستجو</string>
+    <string name="error">خطا !</string>
+    <string name="update_btn">بروز رسانی برنامه</string>
+    <string name="not_needed">فعلا نیازی ندارم !</string>
+    <string name="exit">خروج</string>
+
 </resources>

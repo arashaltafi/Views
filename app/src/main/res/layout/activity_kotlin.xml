@@ -116,6 +116,13 @@
             android:text="Dialog 3" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_dialog_4_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Dialog 4" />
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_lottie_1_kotlin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
