@@ -19,6 +19,7 @@ import com.arash.altafi.views.kotlin.customtab.CustomTabKotlinActivity1
 import com.arash.altafi.views.kotlin.datepicker1.DatePickerKotlinActivity1
 import com.arash.altafi.views.kotlin.datepicker2.DatePickerKotlinActivity2
 import com.arash.altafi.views.kotlin.datepicker3.DatePickerKotlinActivity3
+import com.arash.altafi.views.kotlin.debounce.Debounce1Activity
 import com.arash.altafi.views.kotlin.dialog1.DialogKotlinActivity1
 import com.arash.altafi.views.kotlin.dialog2.DialogKotlinActivity2
 import com.arash.altafi.views.kotlin.dialog3.DialogKotlinActivity3
@@ -313,6 +314,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_tapTarget_kotlin.setOnClickListener {
             startActivity(Intent(this , TapTargetActivity::class.java))
+        }
+
+        btn_debounce_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , Debounce1Activity::class.java))
         }
 
     }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".kotlin.debounce.Debounce1Activity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDebounceSample1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click To Toast With Delay Debounce" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDebounceSample2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Click To Toast With Lambda Function" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
