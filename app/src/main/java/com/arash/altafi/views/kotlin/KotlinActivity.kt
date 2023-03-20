@@ -66,6 +66,7 @@ import com.arash.altafi.views.kotlin.toast4.ToastKotlinActivity4
 import com.arash.altafi.views.kotlin.toast5.ToastKotlinActivity5
 import com.arash.altafi.views.kotlin.tooltip.ToolTipKotlinActivity1
 import com.arash.altafi.views.kotlin.triangleLabelView.TriangleLabelViewKotlinActivity1
+import com.arash.altafi.views.kotlin.unique.UniqueCodeActivity
 import kotlinx.android.synthetic.main.activity_kotlin.*
 
 class KotlinActivity : AppCompatActivity() {
@@ -323,6 +324,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_glide_1_kotlin.setOnClickListener {
             startActivity(Intent(this , Glide1Activity::class.java))
+        }
+
+        btn_uniqueCode_kotlin.setOnClickListener {
+            startActivity(Intent(this , UniqueCodeActivity::class.java))
         }
 
     }

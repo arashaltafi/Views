@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
+            android:name=".kotlin.unique.UniqueCodeActivity"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.glide.Glide1Activity"
             android:exported="false" />
         <activity
