@@ -59,6 +59,7 @@ import com.arash.altafi.views.kotlin.toast1.ToastKotlinActivity1
 import com.arash.altafi.views.kotlin.toast2.ToastKotlinActivity2
 import com.arash.altafi.views.kotlin.toast3.ToastKotlinActivity3
 import com.arash.altafi.views.kotlin.toast4.ToastKotlinActivity4
+import com.arash.altafi.views.kotlin.tooltip.ToolTipKotlinActivity1
 import com.arash.altafi.views.kotlin.triangleLabelView.TriangleLabelViewKotlinActivity1
 import kotlinx.android.synthetic.main.activity_kotlin.*
 
@@ -293,6 +294,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_chip_1_kotlin.setOnClickListener {
             startActivity(Intent(this , ChipKotlinActivity1::class.java))
+        }
+
+        btn_toolTip_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , ToolTipKotlinActivity1::class.java))
         }
 
     }

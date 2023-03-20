@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="30dp">
+    android:padding="30dp"
+    tools:context=".kotlin.tooltip.ToolTipKotlinActivity1">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnPopUp"
+        android:id="@+id/btnToolTip1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Click To Show PopUp " />
+        android:text="sample 1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnToolTip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="sample 2" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -261,4 +261,7 @@ dependencies {
 
     //Chart2
     implementation 'com.github.AnyChart:AnyChart-Android:1.1.2'
+
+    //ToolTip   https://github.com/douglasjunior/android-simple-tooltip
+    implementation "com.github.douglasjunior:android-simple-tooltip:1.1.0"
 }

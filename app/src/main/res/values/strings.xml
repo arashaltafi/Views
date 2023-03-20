@@ -78,6 +78,7 @@
     <string name="detecting_location">در حال دستیابی به موقعیت مکانی شما …</string>
     <string name="location_dialog">مکان یابی</string>
     <string name="cancel">انصراف</string>
+    <string name="ok">صحیح</string>
 
     <string name="attention">توجه</string>
     <string name="attention_map">توجه:</string>
