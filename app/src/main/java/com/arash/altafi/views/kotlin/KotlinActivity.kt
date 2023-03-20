@@ -24,6 +24,7 @@ import com.arash.altafi.views.kotlin.dialog1.DialogKotlinActivity1
 import com.arash.altafi.views.kotlin.dialog2.DialogKotlinActivity2
 import com.arash.altafi.views.kotlin.dialog3.DialogKotlinActivity3
 import com.arash.altafi.views.kotlin.dialog4.DialogKotlinActivity4
+import com.arash.altafi.views.kotlin.glide.Glide1Activity
 import com.arash.altafi.views.kotlin.image1.ImageKotlinActivity1
 import com.arash.altafi.views.kotlin.image2.ImageKotlinActivity2
 import com.arash.altafi.views.kotlin.image3.ImageKotlinActivity3
@@ -318,6 +319,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_debounce_1_kotlin.setOnClickListener {
             startActivity(Intent(this , Debounce1Activity::class.java))
+        }
+
+        btn_glide_1_kotlin.setOnClickListener {
+            startActivity(Intent(this , Glide1Activity::class.java))
         }
 
     }

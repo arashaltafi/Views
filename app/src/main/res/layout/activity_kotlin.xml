@@ -430,6 +430,13 @@
             android:layout_marginTop="30dp"
             android:text="Debounce" />
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_glide_1_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Glide 1" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.core.widget.NestedScrollView>

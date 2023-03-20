@@ -170,7 +170,12 @@ dependencies {
     implementation 'com.amitshekhar.android:android-networking:1.0.2'
 
     //Glide
-    implementation 'com.github.bumptech.glide:glide:4.15.0'
+    implementation "com.github.bumptech.glide:glide:4.15.0"
+    kapt "com.github.bumptech.glide:compiler:4.15.0"
+    implementation "jp.wasabeef:glide-transformations:4.3.0"
+
+    //android svg
+    implementation "com.caverock:androidsvg-aar:1.4"
 
     //Shimmer 3
     implementation "com.github.skydoves:androidveil:1.1.2"
