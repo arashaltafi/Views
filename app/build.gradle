@@ -7,12 +7,12 @@ plugins {
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.arash.altafi.views"
         minSdk 23
-        targetSdk 31
+        targetSdk 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -71,8 +71,8 @@ android {
             buildConfigField("String", "BASE_SERVER", "\"product\"")
             resValue "string", "app_name", "View Product"
             manifestPlaceholders = [
-                    appIcon: "@mipmap/ic_launcher",
-                    appIconRound: "@mipmap/ic_launcher_round"
+                    appIcon: "@drawable/view_ir",
+                    appIconRound: "@drawable/view_ir"
             ]
         }
         develop {
@@ -81,8 +81,8 @@ android {
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
             manifestPlaceholders = [
-                    appIcon: "@mipmap/ic_launcher_test",
-                    appIconRound: "@mipmap/ic_launcher_round_test"
+                    appIcon: "@drawable/view_develop",
+                    appIconRound: "@drawable/view_develop"
             ]
         }
     }
@@ -101,14 +101,16 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.8.0'
-    implementation 'androidx.appcompat:appcompat:1.4.2'
-    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    //Test
     testImplementation 'junit:junit:'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     //Toast 1
     implementation 'com.github.GrenderG:Toasty:1.5.2'
@@ -156,15 +158,19 @@ dependencies {
     implementation 'com.github.marcoscgdev:DialogSheet:2.1.2'
 
     //Lottie
-    implementation 'com.airbnb.android:lottie:4.2.1'
+    implementation 'com.airbnb.android:lottie:6.0.0'
 
     //Shimmer 1
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
 
     //Shimmer 2 (sample shimmer 1 for recyclerView)
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //Networking
     implementation 'com.amitshekhar.android:android-networking:1.0.2'
-    implementation 'com.github.bumptech.glide:glide:4.13.2'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.15.0'
 
     //Shimmer 3
     implementation "com.github.skydoves:androidveil:1.1.2"
@@ -221,7 +227,7 @@ dependencies {
     implementation 'com.hanks.animatecheckbox:library:0.1'
 
     // Custom Tab 1
-    implementation "androidx.browser:browser:1.4.0"
+    implementation "androidx.browser:browser:1.5.0"
 
     // Rating bar 1
     implementation 'com.github.ome450901:SimpleRatingBar:1.5.1'
@@ -241,8 +247,8 @@ dependencies {
 
     // Popup Window 1
     implementation 'com.github.hyy920109:GuidePro:1.1.0'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.0'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.5.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
 
     // Popup Window 3
     implementation "com.github.tapadoo:alerter:7.2.4"

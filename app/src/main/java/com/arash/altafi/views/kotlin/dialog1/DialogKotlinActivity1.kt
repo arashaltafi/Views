@@ -143,7 +143,7 @@ class DialogKotlinActivity1 : AppCompatActivity() {
         basic_icon.setOnClickListener {
             MaterialDialog(this).show {
                 title(R.string.useGoogleLocationServices)
-                icon(R.mipmap.ic_launcher)
+                icon(R.drawable.view_ir)
                 message(R.string.useGoogleLocationServicesPrompt)
                 positiveButton(R.string.agree)
                 negativeButton(R.string.disagree)
