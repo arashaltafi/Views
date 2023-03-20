@@ -48,12 +48,4 @@ class TapTargetActivity : AppCompatActivity() {
             }
         }
     }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        tapTargetView1?.dismiss(true)
-        tapTargetView2?.dismiss(true)
-        tapTargetView3?.dismiss(true)
-        tapTargetView4?.dismiss(true)
-    }
 }
