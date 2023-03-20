@@ -88,4 +88,14 @@
     <string name="not_needed">فعلا نیازی ندارم !</string>
     <string name="exit">خروج</string>
 
+    <!-- SwitchButton 4 -->
+    <string name="app_theme">پوسته برنامه</string>
+    <string-array name="theme_array">
+        <item>روشن</item>
+        <item>خودکار</item>
+        <item>تاریک</item>
+    </string-array>
+
+
+
 </resources>

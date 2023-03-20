@@ -49,6 +49,7 @@ import com.arash.altafi.views.kotlin.snackbar1.SnackBarKotlinActivity1
 import com.arash.altafi.views.kotlin.switchbutton1.SwitchButtonKotlinActivity1
 import com.arash.altafi.views.kotlin.switchbutton2.SwitchButtonKotlinActivity2
 import com.arash.altafi.views.kotlin.switchbutton3.SwitchButtonKotlinActivity3
+import com.arash.altafi.views.kotlin.switchbutton4.SwitchButtonKotlinActivity4
 import com.arash.altafi.views.kotlin.text1.TextKotlinActivity1
 import com.arash.altafi.views.kotlin.text2.TextKotlinActivity2
 import com.arash.altafi.views.kotlin.text3.TextKotlinActivity3
@@ -239,6 +240,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_switch_button_3_kotlin.setOnClickListener {
             startActivity(Intent(this , SwitchButtonKotlinActivity3::class.java))
+        }
+
+        btn_switch_button_4_kotlin.setOnClickListener {
+            startActivity(Intent(this , SwitchButtonKotlinActivity4::class.java))
         }
 
         btn_check_box_1_kotlin.setOnClickListener {

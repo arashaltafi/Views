@@ -211,6 +211,9 @@ dependencies {
     //SwitchButton 3
     implementation 'com.rm:rmswitch:1.2.3'
 
+    //SwitchButton 4
+    implementation "com.rm:rmswitch:1.2.3"
+
     // Number Picker
     implementation 'com.github.sephiroth74:NumberSlidingPicker:1.0.3'
 
