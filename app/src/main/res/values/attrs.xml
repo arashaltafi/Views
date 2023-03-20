@@ -10,4 +10,10 @@
             <enum name="dir_bottom" value="4" />
         </attr>
     </declare-styleable>
+
+    <attr name="colorBetweenBackgroundSurface" format="color" />
+    <attr name="colorControlTapTarget" format="color" />
+    <attr name="colorGlassTapTargetView" format="color" />
+    <attr name="colorBackGroundTapTarget" format="color" />
+
 </resources>

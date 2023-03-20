@@ -96,6 +96,9 @@
         <item>تاریک</item>
     </string-array>
 
-
+    <string name="tap_target_music_forward">برای جلو رفتن صوت انگشت خود را در کنار صفحه نگه دارید.</string>
+    <string name="tap_target_music_rewind">برای عقب رفتن صوت انگشت خود را در کنار صفحه نگه دارید.</string>
+    <string name="tap_target_swipe_brightness">با بالا و پایین کشیدن انگشت خود روشنایی صفحه را تنظیم کنید.</string>
+    <string name="tap_target_swipe_volume">با بالا و پایین کشیدن انگشت خود صدای پخش را تنظیم کنید.</string>
 
 </resources>

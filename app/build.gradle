@@ -267,4 +267,7 @@ dependencies {
 
     //ToolTip   https://github.com/douglasjunior/android-simple-tooltip
     implementation "com.github.douglasjunior:android-simple-tooltip:1.1.0"
+
+    //TapTargetView
+    implementation "com.getkeepsafe.taptargetview:taptargetview:1.13.3"
 }

@@ -12,6 +12,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <item name="colorControlTapTarget">#e0e0e0</item>
+        <item name="colorBetweenBackgroundSurface">#484848</item>
+        <item name="colorGlassTapTargetView">#29E8E7E7</item>
+        <item name="colorBackGroundTapTarget">#7D7C7C</item>
+
     </style>
 
     <!--    Dialog 1-->

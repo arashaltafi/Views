@@ -50,6 +50,7 @@ import com.arash.altafi.views.kotlin.switchbutton1.SwitchButtonKotlinActivity1
 import com.arash.altafi.views.kotlin.switchbutton2.SwitchButtonKotlinActivity2
 import com.arash.altafi.views.kotlin.switchbutton3.SwitchButtonKotlinActivity3
 import com.arash.altafi.views.kotlin.switchbutton4.SwitchButtonKotlinActivity4
+import com.arash.altafi.views.kotlin.tapTarget.TapTargetActivity
 import com.arash.altafi.views.kotlin.text1.TextKotlinActivity1
 import com.arash.altafi.views.kotlin.text2.TextKotlinActivity2
 import com.arash.altafi.views.kotlin.text3.TextKotlinActivity3
@@ -308,6 +309,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_toolTip_1_kotlin.setOnClickListener {
             startActivity(Intent(this , ToolTipKotlinActivity1::class.java))
+        }
+
+        btn_tapTarget_kotlin.setOnClickListener {
+            startActivity(Intent(this , TapTargetActivity::class.java))
         }
 
     }

@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
+            android:name=".kotlin.tapTarget.TapTargetActivity"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.switchbutton4.SwitchButtonKotlinActivity4"
             android:exported="false" />
         <activity
