@@ -58,6 +58,7 @@ import com.arash.altafi.views.kotlin.text2.TextKotlinActivity2
 import com.arash.altafi.views.kotlin.text3.TextKotlinActivity3
 import com.arash.altafi.views.kotlin.text4.TextKotlinActivity4
 import com.arash.altafi.views.kotlin.text5.TextKotlinActivity5
+import com.arash.altafi.views.kotlin.text6.TextKotlinActivity6
 import com.arash.altafi.views.kotlin.textJustify.JustifyKotlinActivity
 import com.arash.altafi.views.kotlin.toast1.ToastKotlinActivity1
 import com.arash.altafi.views.kotlin.toast2.ToastKotlinActivity2
@@ -200,6 +201,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_text_5_kotlin.setOnClickListener {
             startActivity(Intent(this , TextKotlinActivity5::class.java))
+        }
+
+        btn_text_6_kotlin.setOnClickListener {
+            startActivity(Intent(this , TextKotlinActivity6::class.java))
         }
 
         btn_justify_kotlin.setOnClickListener {
