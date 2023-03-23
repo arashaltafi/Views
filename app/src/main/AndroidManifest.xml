@@ -21,6 +21,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Views">
         <activity
+            android:name=".kotlin.loading.LoadingActivity"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.text6.TextKotlinActivity6"
             android:exported="false" />
         <activity

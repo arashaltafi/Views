@@ -202,4 +202,13 @@
         <item name="cardCornerRadius">12dp</item>
     </style>
 
+    <!-- AVI Loading -->
+    <style name="AVLoadingIndicatorView.Medium">
+        <item name="minWidth">36dip</item>
+        <item name="maxWidth">36dip</item>
+        <item name="minHeight">36dip</item>
+        <item name="maxHeight">36dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
 </resources>

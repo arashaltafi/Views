@@ -137,6 +137,13 @@
             android:text="Lottie 1" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_loading_kotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Loading 1" />
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_number_picker_1_kotlin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

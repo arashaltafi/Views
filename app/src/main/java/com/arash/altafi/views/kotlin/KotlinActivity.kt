@@ -30,6 +30,7 @@ import com.arash.altafi.views.kotlin.image2.ImageKotlinActivity2
 import com.arash.altafi.views.kotlin.image3.ImageKotlinActivity3
 import com.arash.altafi.views.kotlin.image4.ImageKotlinActivity4
 import com.arash.altafi.views.kotlin.image5.ImageKotlinActivity5
+import com.arash.altafi.views.kotlin.loading.LoadingActivity
 import com.arash.altafi.views.kotlin.lottie.LottieKotlinActivity
 import com.arash.altafi.views.kotlin.numberpicker.NumberPickerKotlinActivity
 import com.arash.altafi.views.kotlin.popupwindow1.PopupWindowKotlinActivity1
@@ -153,6 +154,10 @@ class KotlinActivity : AppCompatActivity() {
 
         btn_lottie_1_kotlin.setOnClickListener {
             startActivity(Intent(this , LottieKotlinActivity::class.java))
+        }
+
+        btn_loading_kotlin.setOnClickListener {
+            startActivity(Intent(this , LoadingActivity::class.java))
         }
 
         btn_number_picker_1_kotlin.setOnClickListener {
