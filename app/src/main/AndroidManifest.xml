@@ -78,6 +78,9 @@
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
         <activity
+            android:name=".kotlin.image6.ImageKotlinActivity6"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.image5.ImageKotlinActivity5"
             android:exported="false" />
         <activity
