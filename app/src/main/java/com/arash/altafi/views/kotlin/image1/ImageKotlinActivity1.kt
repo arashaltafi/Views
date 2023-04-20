@@ -15,9 +15,10 @@ class ImageKotlinActivity1 : AppCompatActivity() {
     }
 
     private fun init() {
-
-        Glide.with(this).load(R.drawable.bg1).into(circle_image_1)
-
+        Glide
+            .with(this)
+            .load("https://arashaltafi.ir/url_sample/gif.webp")
+            .into(image_1)
     }
 
 }
