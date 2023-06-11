@@ -38,7 +38,7 @@ class ToastKotlinActivity3 : AppCompatActivity() {
                 .titleTextSize(17) //Title text size in SP (default value 16sp)
                 .descriptionTextSize(15) //Subtitle text size in SP (default value 14sp)
                 .image(getDrawable(R.drawable.arash)!!) //Bubble main image
-                .closeActionImage(getDrawable(R.drawable.ic_error_)!!) //Custom close action image
+                .closeActionImage(getDrawable(www.sanju.motiontoast.R.drawable.ic_error_)!!) //Custom close action image
                 .showOnce("BUBBLE_SHOW_CASE_ID") //Id to show only once the BubbleShowCase
                 .listener(object : BubbleShowCaseListener { //Listener for user actions
                     override fun onTargetClick(bubbleShowCase: BubbleShowCase) {

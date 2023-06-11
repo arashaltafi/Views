@@ -17,6 +17,8 @@
         <item name="colorBetweenBackgroundSurface">#484848</item>
         <item name="colorGlassTapTargetView">#29E8E7E7</item>
         <item name="colorBackGroundTapTarget">#7D7C7C</item>
+        <item name="arrowColor">#303030</item>
+        <item name="colorControlNormal">#e0e0e0</item>
 
     </style>
 

@@ -26,7 +26,7 @@ class MotionToastKotlin : AppCompatActivity() {
                 MotionToastStyle.SUCCESS,
                 MotionToast.GRAVITY_BOTTOM,
                 MotionToast.LONG_DURATION,
-                ResourcesCompat.getFont(this,R.font.helvetica_regular))
+                ResourcesCompat.getFont(this,R.font.vazir))
 
         }
 
@@ -38,7 +38,7 @@ class MotionToastKotlin : AppCompatActivity() {
                 MotionToastStyle.ERROR,
                 MotionToast.GRAVITY_BOTTOM,
                 MotionToast.LONG_DURATION,
-                ResourcesCompat.getFont(this,R.font.helvetica_regular))
+                ResourcesCompat.getFont(this,R.font.vazir))
 
         }
 
@@ -50,7 +50,7 @@ class MotionToastKotlin : AppCompatActivity() {
                 MotionToastStyle.WARNING,
                 MotionToast.GRAVITY_BOTTOM,
                 MotionToast.LONG_DURATION,
-                ResourcesCompat.getFont(this,R.font.helvetica_regular))
+                ResourcesCompat.getFont(this,R.font.vazir))
 
         }
 
@@ -63,7 +63,7 @@ class MotionToastKotlin : AppCompatActivity() {
                 MotionToastStyle.INFO,
                 MotionToast.GRAVITY_BOTTOM,
                 MotionToast.LONG_DURATION,
-                ResourcesCompat.getFont(this,R.font.helvetica_regular))
+                ResourcesCompat.getFont(this,R.font.vazir))
 
 
         }
@@ -76,7 +76,7 @@ class MotionToastKotlin : AppCompatActivity() {
                 MotionToastStyle.DELETE,
                 MotionToast.GRAVITY_BOTTOM,
                 MotionToast.LONG_DURATION,
-                ResourcesCompat.getFont(this,R.font.helvetica_regular))
+                ResourcesCompat.getFont(this,R.font.vazir))
 
 
         }

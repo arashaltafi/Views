@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <attr name="colorControlHighlight" format="color" />
+    <attr name="arrowColor" format="color" />
+
     <declare-styleable name="TriangleView">
         <attr name="tv_bg_color" format="color" />
         <attr name="tv_arrow_dir" format="enum">

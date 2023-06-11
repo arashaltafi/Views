@@ -213,6 +213,9 @@ dependencies {
     //Image 6
     implementation 'com.flaviofaria:kenburnsview:1.0.7'
 
+    //Image 7
+    implementation 'com.github.varunest:sparkbutton:1.0.6'
+
     //SwitchButton 1
     implementation 'com.github.zcweng:switch-button:0.0.3@aar'
 

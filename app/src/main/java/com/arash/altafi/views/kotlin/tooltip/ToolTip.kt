@@ -22,11 +22,11 @@ object ToolTip {
             .dismissOnOutsideTouch(true)
             .dismissOnInsideTouch(true)
             .onDismissListener { it.dismiss() }
-            .arrowColor(view.context.getAttrColor(R.attr.colorSurface))
-            .backgroundColor(view.context.getAttrColor(R.attr.colorSurface))
+            .arrowColor(view.context.getAttrColor(R.attr.arrowColor))
+            .backgroundColor(view.context.getAttrColor(R.attr.arrowColor))
             .textColor(
                 if(view.context.isDarkTheme()) ContextCompat.getColor(view.context, R.color.gray)
-                else ContextCompat.getColor(view.context, R.color.dark_bg_color)
+                else ContextCompat.getColor(view.context, R.color.dark)
             )
             .build()
             .show()

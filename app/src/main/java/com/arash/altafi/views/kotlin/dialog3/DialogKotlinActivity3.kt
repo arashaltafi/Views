@@ -33,7 +33,7 @@ class DialogKotlinActivity3 : AppCompatActivity() {
                 .setNeutralButton("Neutral")
                 .setRoundedCorners(false) // Default value is true
                 .setBackgroundColor(Color.BLACK) // Your custom background color
-                .setButtonsColorRes(R.color.colorAccent) // You can use dialogSheetAccent style attribute instead
+                .setButtonsColorRes(R.color.colorBlue) // You can use dialogSheetAccent style attribute instead
                 .setNeutralButtonColor(Color.WHITE)
                 .show()
         }

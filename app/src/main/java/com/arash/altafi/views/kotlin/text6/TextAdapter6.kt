@@ -38,7 +38,7 @@ class TextAdapter6 : ListAdapter<Items, TextAdapter6.ViewHolder>(Companion) {
                 text = it.name
                 highlightAll(
                     searchText,
-                    context.getAttr(R.attr.colorPrimary)
+                    context.getAttr(R.attr.colorControlHighlight)
                 )
             }
             holder.tvFamily.text = it.family
